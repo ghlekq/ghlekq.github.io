@@ -1,0 +1,34 @@
+{
+  "name": "miso-chat",
+  "version": "1.0.0",
+  "engines": {
+    "node":"10.10.0",
+    "npm":"6.4.1"
+  },
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "miso \"Error: no test specified\" && exit1"
+  },
+  "author": "miso",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "color-hash": "^1.0.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "cookie-signature": "^1.1.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.3.2",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.0",
+    "pug": "^2.0.3",
+    "socket.io": "^2.1.1"
+  }
+}
